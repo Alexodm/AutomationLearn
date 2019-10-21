@@ -24,9 +24,7 @@ class InputTest {
         List<WebElement> rows = driver.findElements(By.xpath("//div[@class ='r' and not(ancestor::*[@class='related-question-pair'])]"));
         System.out.println("Number of rows: " + rows.size());
         assertEquals(11, rows.size());
-        WebElement element = rows.get(0);
-        System.out.println("Name of first row object: " + element);
-        element.click();
+        rows.get(0).click();
     }
 
     void findTextOnPage(WebDriver driver) {
