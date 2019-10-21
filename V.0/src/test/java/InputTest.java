@@ -21,9 +21,9 @@ class InputTest {
     }
 
     void testRowNumber(WebDriver driver) {
-        List<WebElement> rows = driver.findElements(By.className("r"));
+        List<WebElement> rows = driver.findElements(By.xpath("//div[@class ='r' and not(ancestor::*[@class='related-question-pair'])]"));
         System.out.println("Number of rows: " + rows.size());
-        assertArrayEquals(new int[]{11}, new int[]{rows.size()});
+        assertEquals(11, rows.size());
         WebElement element = rows.get(0);
         System.out.println("Name of first row object: " + element);
         element.click();
