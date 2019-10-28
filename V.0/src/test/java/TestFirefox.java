@@ -23,15 +23,24 @@ public class TestFirefox {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-        driver.get("http://google.com");
+        driver.get("https://onlinetestpad.com/ru/test/68962-tablica-umnozheniya");
     }
 
     @Test
-    public void test01() {
+    /*public void test01() {
         InputTest test = new InputTest();
         test.test01(driver);
         test.testRowNumber(driver);
         test.findTextOnPage(driver);
+    }
+*/
+    public void testMultiplication(){
+        MuliplicationTest test = new MuliplicationTest();
+        test.startTest(driver);
+        test.negativeCase(driver);
+        test.internalTest(driver);
+        test.finalTest(driver);
+
     }
 
     @After

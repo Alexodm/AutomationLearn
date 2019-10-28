@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb8bc074-9d40-4b9e-8ba1-6e23fe11beec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MuliplicationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/InputTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/InputTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/TestChrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/TestChrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InputTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestChrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestChrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestFirefox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFirefox.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,17 +25,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestFirefox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="238">
+              <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#391#392#0" expanded="true" />
                 <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#1034#1035#0" expanded="true" />
-                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1215#1216#0" expanded="true" />
+                <element signature="e#1245#1246#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/InputTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="425">
+              <caret line="30" column="103" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="103" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,17 +53,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestChrome.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MuliplicationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="425">
+              <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#1031#1032#0" expanded="true" />
-                <element signature="e#1055#1056#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,21 +89,25 @@
         <option value="$PROJECT_DIR$/src/test/java/InputTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestChrome.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestFirefox.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MuliplicationTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="208" />
     <option name="y" value="20" />
     <option name="width" value="1120" />
     <option name="height" value="800" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -144,13 +144,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571673278849" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572273646418" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -216,11 +215,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOne.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFirefox.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tests.tests.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestOne" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="MAIN_CLASS_NAME" value="TestFirefox" />
+      <option name="METHOD_NAME" value="testMultiplication" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -229,17 +228,17 @@
     <list>
       <item itemvalue="Gradle.V.0" />
       <item itemvalue="JUnit.TestChrome" />
-      <item itemvalue="JUnit.TestOne.test01" />
       <item itemvalue="JUnit.TestFirefox" />
       <item itemvalue="JUnit.TestFirefox.test01" />
+      <item itemvalue="JUnit.TestFirefox.testMultiplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestFirefox" />
+        <item itemvalue="JUnit.TestFirefox.testMultiplication" />
         <item itemvalue="JUnit.TestChrome" />
         <item itemvalue="JUnit.TestFirefox.test01" />
         <item itemvalue="Gradle.V.0" />
-        <item itemvalue="JUnit.TestOne.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -263,50 +262,62 @@
       <workItem from="1571415415013" duration="4699000" />
       <workItem from="1571422023686" duration="1394000" />
       <workItem from="1571646904295" duration="12235000" />
-      <workItem from="1571671942225" duration="1259000" />
+      <workItem from="1571671942225" duration="2345000" />
+      <workItem from="1571922974318" duration="573000" />
+      <workItem from="1572001376240" duration="28000" />
+      <workItem from="1572092813649" duration="69000" />
+      <workItem from="1572267040672" duration="6803000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed unusable code at testRowNumber">
+      <created>1571673751566</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571673751566</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFirefox - 2019.10.21 at 19h 57m 41s.xml">
-      <configuration name="TestFirefox" configurationId="JUnit" />
+    <history-entry file="TestFirefox_testMultiplication - 2019.10.28 at 20h 12m 33s.xml">
+      <configuration name="TestFirefox.testMultiplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestChrome - 2019.10.21 at 20h 27m 09s.xml">
-      <configuration name="TestChrome" configurationId="JUnit" />
+    <history-entry file="TestFirefox_testMultiplication - 2019.10.28 at 20h 13m 04s.xml">
+      <configuration name="TestFirefox.testMultiplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestChrome - 2019.10.21 at 20h 29m 18s.xml">
-      <configuration name="TestChrome" configurationId="JUnit" />
+    <history-entry file="TestFirefox_testMultiplication - 2019.10.28 at 20h 15m 33s.xml">
+      <configuration name="TestFirefox.testMultiplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestChrome - 2019.10.21 at 20h 34m 38s.xml">
-      <configuration name="TestChrome" configurationId="JUnit" />
+    <history-entry file="TestFirefox_testMultiplication - 2019.10.28 at 20h 16m 28s.xml">
+      <configuration name="TestFirefox.testMultiplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestChrome - 2019.10.21 at 20h 45m 59s.xml">
-      <configuration name="TestChrome" configurationId="JUnit" />
+    <history-entry file="TestFirefox_testMultiplication - 2019.10.28 at 20h 24m 11s.xml">
+      <configuration name="TestFirefox.testMultiplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestChrome - 2019.10.21 at 20h 48m 42s.xml">
-      <configuration name="TestChrome" configurationId="JUnit" />
+    <history-entry file="TestFirefox_testMultiplication - 2019.10.28 at 20h 25m 41s.xml">
+      <configuration name="TestFirefox.testMultiplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestChrome - 2019.10.21 at 20h 49m 51s.xml">
-      <configuration name="TestChrome" configurationId="JUnit" />
+    <history-entry file="TestFirefox_testMultiplication - 2019.10.28 at 20h 27m 13s.xml">
+      <configuration name="TestFirefox.testMultiplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestChrome - 2019.10.21 at 20h 52m 04s.xml">
-      <configuration name="TestChrome" configurationId="JUnit" />
+    <history-entry file="TestFirefox_testMultiplication - 2019.10.28 at 20h 31m 48s.xml">
+      <configuration name="TestFirefox.testMultiplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestChrome - 2019.10.21 at 21h 46m 00s.xml">
-      <configuration name="TestChrome" configurationId="JUnit" />
+    <history-entry file="TestFirefox_testMultiplication - 2019.10.28 at 20h 33m 16s.xml">
+      <configuration name="TestFirefox.testMultiplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFirefox - 2019.10.21 at 21h 51m 20s.xml">
+    <history-entry file="TestFirefox - 2019.10.28 at 20h 41m 18s.xml">
       <configuration name="TestFirefox" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52426000" />
+    <option name="totallyTimeSpent" value="60985000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22068231" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22921109" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -342,6 +353,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed unusable code at testRowNumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed unusable code at testRowNumber" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -376,10 +391,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestChrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="25" column="79" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/InputTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="425">
+          <caret line="30" column="103" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MuliplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -388,28 +425,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestFirefox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="238">
+          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#391#392#0" expanded="true" />
             <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestChrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
           </folding>
         </state>
       </provider>
