@@ -34,12 +34,12 @@ public class TestFirefox {
         test.findTextOnPage(driver);
     }
 */
-    public void testMultiplication(){
+    public void testMultiplication() {
         MuliplicationTest test = new MuliplicationTest();
         test.startTest(driver);
         test.negativeCase(driver);
-        test.internalTest(driver);
-        test.finalTest(driver);
+        test.countTest(driver);
+        test.resultTest(driver);
 
     }
 
