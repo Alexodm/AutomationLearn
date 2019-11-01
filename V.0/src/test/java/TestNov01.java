@@ -1,4 +1,5 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.jetbrains.annotations.NotNull;
 import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,12 +16,8 @@ public class TestNov01 {
     }
 
     private String multiplyNums(){
-        WebElement elementToParse = driver.findElement(By.cssSelector("span.qtext"));
-        String firstString = elementToParse.getText();
-        String substring = firstString.substring(0,3);
-        String[] split = substring.split("\\*",2);
-        int result = Integer.parseInt(split[0])*Integer.parseInt(split[1]);
-        return Integer.toString(result);
+        String[] split = driver.findElement(By.cssSelector("span.qtext")).getText().replace("="," ").trim().split("\\*");
+        return Integer.toString(Integer.parseInt(split[0])*Integer.parseInt(split[1]));
     }
 
     @BeforeClass
