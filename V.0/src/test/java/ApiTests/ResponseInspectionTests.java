@@ -30,6 +30,6 @@ public class ResponseInspectionTests {
     @Test
     public void CheckGetCacheValueMethod(){
         given().spec(baseSpec()).when().get("cache/200")
-                .then().statusCode(HttpStatus.SC_OK);
+                .then().statusCode(HttpStatus.SC_OK).header("Cache-Control","public, max-age=200");
     }
 }
