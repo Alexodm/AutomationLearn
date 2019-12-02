@@ -16,4 +16,7 @@ dependencies {
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
     testCompile("io.github.bonigarcia:webdrivermanager:3.7.1")
     testCompile group: 'org.slf4j', name: 'slf4j-simple', version: '1.6.1'
+    compileOnly 'org.projectlombok:lombok:1.18.10'
+    annotationProcessor 'org.projectlombok:lombok:1.18.10'
+    testImplementation 'io.rest-assured:rest-assured:4.1.2'
 }
