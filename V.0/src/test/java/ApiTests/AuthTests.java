@@ -59,12 +59,11 @@ public class AuthTests {
     }
 
     @Test
-    public void checkHiddenBasicAuth() {
+    public void checkHiddenAuthBasic() {
         given().spec(baseSpec()).auth().preemptive().basic("user", "passwd")
                 .formParam("user", "user")
                 .formParam("passwd", "passwd")
-                .when().get("hidden-basic-auth/user/passwd/")
+                .when().get("hidden-basic-auth/user/passwd")
                 .then().statusCode(HttpStatus.SC_OK);
     }
-
 }

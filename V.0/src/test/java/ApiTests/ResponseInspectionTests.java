@@ -32,4 +32,24 @@ public class ResponseInspectionTests {
         given().spec(baseSpec()).when().get("cache/200")
                 .then().statusCode(HttpStatus.SC_OK).header("Cache-Control","public, max-age=200");
     }
+
+    @Test
+    public void CheckGetEtagMethod(){
+        // TODO: Посмотреть что не так с этим методом
+        given().spec(baseSpec()).when().get("etag/etag123")
+                .then().statusCode(HttpStatus.SC_OK);
+    }
+
+    @Test
+    public void CheckGetHeadersMethod(){
+        given().spec(baseSpec()).when().get("response-headers?freeform=TestHeader")
+                .then().statusCode(HttpStatus.SC_OK).header("freeform","TestHeader");
+    }
+
+    @Test
+    public void CheckPostHeadersMethod(){
+        given().spec(baseSpec()).when().post("response-headers?freeform=TestHeader")
+                .then().statusCode(HttpStatus.SC_OK).header("freeform","TestHeader");
+    }
+
 }

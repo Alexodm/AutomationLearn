@@ -8,7 +8,12 @@ import io.restassured.specification.RequestSpecification;
 import org.apache.http.HttpStatus;
 import org.junit.*;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.util.regex.PatternSyntaxException;
+
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.core.IsNull.notNullValue;
 
 
 public class RequestInspectionTests {
@@ -25,13 +30,16 @@ public class RequestInspectionTests {
     @Test
     public void checkGetMethodHeaders() {
         given().spec(baseSpec()).when().get("headers")
-                .then().statusCode(HttpStatus.SC_OK);
+                .then()
+                .statusCode(HttpStatus.SC_OK)
+                .header("connection","keep-alive");
     }
 
     @Test
     public void checkGetMethodIp(){
         given().spec(baseSpec()).when().get("ip")
-                .then().statusCode(HttpStatus.SC_OK);
+                .then().statusCode(HttpStatus.SC_OK)
+                .body("origin",notNullValue());
     }
 
     @Test

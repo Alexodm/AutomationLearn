@@ -1,12 +1,14 @@
+package UITests;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class TestFirefox {
+public class TestChrome {
     private WebDriver driver;
 
     private void clickButtonNext() {
@@ -15,12 +17,12 @@ public class TestFirefox {
 
     @BeforeClass
     public static void setupClass() {
-        WebDriverManager.firefoxdriver().setup();
+        WebDriverManager.chromedriver().setup();
     }
 
     @Before
     public void before() {
-        driver = new FirefoxDriver();
+        driver = new ChromeDriver();
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -65,10 +67,12 @@ public class TestFirefox {
         Assert.assertEquals(alert, "Результат");
     }
 
+
     @After
     public void after() {
         driver.close();
     }
 
 }
+
 
